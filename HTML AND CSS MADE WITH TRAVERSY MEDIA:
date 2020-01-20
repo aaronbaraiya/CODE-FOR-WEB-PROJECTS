@@ -1,0 +1,270 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>CSS one for video</title>
+
+    <style type="text/css">
+
+      html {
+        background-color: #C0C0C0;
+        font-family: Arial;
+        weight: 80%;
+      }
+
+      .box-1 {
+          text-align: center;
+          background-color: #000000;
+          color: #FFFFFF;
+          padding: 5px;
+          margin: 5px;
+          border: 5px #FF0000 solid;
+      }
+
+
+
+      h1 {
+        letter-spacing: 0.5em;
+        text-decoration: underline;
+        font-style: italic;
+      }
+
+      .box-2 {
+        border: 3px dotted #ccc;
+        padding: 20px;
+        margin: 10px;
+      }
+
+      .box-2 h2 {
+        text-align: center;
+      }
+
+      .category {
+        border: 5px #ccc solid;
+        padding: 10px;
+        /*makes border boxes round curves*/
+        border-radius: 40px;
+      }
+
+
+      .category h2 {
+        text-align: center;
+      }
+
+
+      .category li {
+        padding: 0;
+        /*makes bullet pts for list sqaure:
+        list-style: square;*/
+
+        /*gets rid of bullet points*/
+        list-style: none;
+
+        /*setting a img instead of a bullet point
+        list-style-image: url(https://tinyjpg.com/images/social/website.jpg);*/
+      }
+
+      /*addes CSS to all links*/
+      a {
+        /*gets rid of underline*/
+        text-decoration: none;
+        color: #000000;
+      }
+
+      /*hover state when hovering over changes colour*/
+      a:hover {
+        color: 	#FF0000;
+      }
+
+      /*flashs color if clicked on*/
+
+      a:active {
+        color: #008000;
+      }
+
+      .form-1 {
+        padding: 20px;
+      }
+
+      .form-group {
+        padding-bottom: 15px;
+      }
+
+      /*puts labels and input areas in different lines*/
+
+      .form-1 label {
+        display: block;
+      }
+
+      /*the parametres passed select specific areas such as inputs and textareas*/
+      .form-1 input[type="text"], .form-1 textarea {
+        padding: 5px;
+        /*makes the objects more bigger*/
+        width: 100%;
+      }
+
+      .button {
+        background-color: #333;
+        color: #FFF;
+        padding: 10px 15px; /*this makes the button much more in width and height*/
+        border: none;
+      }
+
+      .block {
+        float: left;
+        width: 33.3%;
+        border: 1px solid #CCC;
+        padding: 10px;
+        box-sizing: border-box; /*makes all of the boxes in one line*/
+      }
+
+      .clr {
+        clear: float;
+      }
+
+      #main-block {
+        float: left;
+        width: 70%;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      #sideBar {
+        float: right;
+        width: 30%;
+        background-color: #333;
+        color: #FFF;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+
+      .p-box {
+        width: 800px;
+        height: 500px;
+        border: 1px solid #000;
+        margin-top: 250px;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="box-1">
+      <h1>Hello World</h1>
+
+      <br>
+      <br>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor
+        isnisi ut aliquip  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+    </div>
+
+    <div class="box-2">
+      <h2>GoodBye World</h2>
+
+      <br>
+      <br>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco labor
+        isnisi ut aliquip  ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div class="category">
+
+      <h2>Categories</h2>
+
+      <ul>
+        <li><a href = "https://www.google.com" target="_blank">Click here for google</a></li>
+        <li><a href = "#">category2</a></li>
+        <li><a href = "#">category3</a></li>
+        <li><a href = "#">category4</a></li>
+      </ul>
+
+    </div>
+
+    <form class = "form-1">
+      <div class="form-group">
+        <label>Name:</label>
+        <input type="text" name="email">
+      </div>
+      <div class="form-group">
+        <label>Email:</label>
+        <input type="text" name="email">
+      </div>
+      <div class="form-group">
+        <label>Message:</label>
+        <textarea name="message"></textarea>
+        <br>
+        <br>
+        <input class="button" type="submit" value="Submit" name = "">
+      </form>
+
+      <br>
+      <br>
+
+      <div class="block">
+
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+      </div>
+
+      <div class="block">
+
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+      </div>
+
+      <div class="block">
+
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+           ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+      </div>
+
+
+      <div id="main-block">
+        <h3>Heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+           exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+      <div id = "sideBar">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+          cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="p-box">
+      <h1>Hello</h1>
+      <h2>GoodBye</h2>
+    </div>
+
+    <a class = "button" href="">Click Me</a>
+
+  </body>
+</html>
