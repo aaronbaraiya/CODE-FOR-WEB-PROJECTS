@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<!--THIS IS A QUICK TEST TO TO MAKE LISTS, INPUT, AND A BASIC WEB PAGE WITH LITTLE TO NO UI IN IT IT IS A MERE REMINDER-->
+<html lang="en" dir="ltr">
+  <head>
+    <title>Quick Test Web page</title>
+    <link rel="icon" href="https://p1.hiclipart.com/preview/586/927/642/pokemon-sun-and-moon-rendered-logos-round-black-logo-png-clipart.jpg">
+  </head>
+  <body>
+    <header>
+      <h1>QuickTest</h1>
+      <br>
+      <p>Enter a series of inputs below: </p>
+      <br>
+      <br>
+      <main>
+        <form action="Submit-inputs" method="post">
+          <label for="first-input">
+            <p>Enter your name:</p>
+            <input type="textarea" name="first-text" placeholder="Enter some text" required>
+            <br><br>
+            <p>Enter your last name:</p>
+            <input type="text" name="sec-text" placeholder="Enter your last name" required>
+          </label>
+          <br><br>
+          <label for="second-input">
+            <p>Enter some radio input:</p>
+            <input type="radio" name="second-input" required>Yes <br>
+            <input type="radio" name="second-input" required>No <br>
+            <input type="radio" name="second-input" required>Maybe <br>
+          </label>
+          <br><br>
+          <label for="third-input">
+            <p>Enter some checkbox input:</p>
+            <input type="checkbox" name="first-checkbox" required>First <br>
+            <input type="checkbox" name="second-checkbox" required>Second <br>
+            <input type="checkbox" name="third-checkbox" required>Third <br>
+          </label>
+          <br><br>
+          <label for="submitting-form">
+            <button type="Submit-inputs" name="Submit-inputs">Submit</button>
+          </label>
+        </form>
+      </main>
+    </header>
+  </body>
+</html>
