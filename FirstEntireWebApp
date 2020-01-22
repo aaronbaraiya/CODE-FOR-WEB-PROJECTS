@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<!--THIS WEB APP WITH CONTAIN: LISTS,INPUTS RADIO & CHECKBOXS & TEXT,NAV BAR, HEADER, THE PAGE LINKS TO EXTERNAL FILES,LINKS TO OTHER FILES WITHIN
+THE APP ITSELF, BETTER UI/UX web app will be about programming languages-->
+<!--JUST ADD FOOTER AND ALL WILL BE DONE IGNORE FIRST THINGS THIS WAS TO KNOW HOW WELL YOU COULD CODE MORE STUDY IS NEEDED-->
+<html>
+	<head>
+		<title>NewWebApp</title>
+		<link rel="icon" href="https://cdn3.iconfinder.com/data/icons/online-marketing-vol-1/72/24-512.png">
+		<style type="text/css">
+			html, body { /*NEEDED FOR FULL BACKGROUND*/
+				padding: 0;
+				margin: 0;
+			}
+			
+			#first-header {
+				text-align: center;
+				font-family: Arial;
+				font-weight: 5;
+				background-color: #808B96;
+				margin: 0; /*NEEDED FOR FULL BACKGROUND*/
+				padding: 50px;
+				height: 100px;
+				color: #FFFFFF;
+			}
+			
+			.nav li { /*GETS RID OF BULLET POINTS*/
+				list-style-type: none;
+				display: inline-block; /*MAKES THE NAV ELEMENTS HORIZONTAL*/
+				margin-left: 210px; /*SPACES OUT THE ELEMENTS IN THE NAVBAR*/
+			}
+			
+			.nav a { /*GETS RID OF UNDERLINE*/
+				text-decoration: none;
+				color: #9E9E9E;
+				font-size: 25px;
+				margin-top: 2px;
+				font-family: sans-serif;
+			}
+			
+			.nav ul { 
+				padding: 0; /*THIS MAKES THE OBJECTS GO UNDERNEATH THE HEADER COLOUR*/
+				margin: 0;  /*THIS MAKES THE OBJECTS GO UNDERNEATH THE HEADER COLOUR*/
+				background-color: #263238; /*THIS MAKES THE NAV BACKGROUND COLOUR STRECH ALL ACROSS*/
+				height: 50px; /*THIS MAKES THE NAV COLOUR MUCH LARGER*/
+				padding-top: 25px; /*MAKES THE TEXT MOVE A BIT LOWER HOWEVER THE BACKGROUND COLOUR ALSO EXPANDS*/
+			}
+			
+			.nav a:hover { /*HOVER MUST HAVE NO SPACE BETWEEN THE A*/
+				color: #FFFFFF;
+			}
+			
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+			
+			#sec-header {
+				text-align: center;
+				font-family: 'Open Sans', sans-serif;
+				font-weight: 100;
+				background-color: #B0BEC5;
+				padding: 0; /*THIS MAKES IT CONNECT WITH UPPER ELEMENTS*/
+				margin: 0;  /*THIS MAKES IT CONNECT WITH UPPER ELEMENTS*/
+				padding-top: 65px; /*MAKES THE HEADER TEXT MOVE LOWER*/
+				padding-bottom: 20px;
+				height: 200px;
+			}
+			
+			@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+			
+			#first-p {
+				margin-top: -150px; /*THIS MAKES THE TEXT MOVE UPWARDS*/
+				font-family: 'Lato', sans-serif;
+				padding: 0px 100px 0px 100px; /*THIS MAKES THE TEXT MOVE MORE INWARDS*/
+				word-spacing: 3px; /*MAKES SPACE BETWEEN WORDS*/
+				line-height: 20px; /*MAKES SPACING INBETWEEN VERTICAL ROWS OF SENTENCES*/
+			}
+			
+			#js-logo {
+				height: 140px;
+				width: 100px;
+				padding-top: -100px; /*THIS MAKES THE IMAGE MOVE LOWER*/
+				padding-left: 100px; /*THIS MAKES THE IMAGE MOVE TO THE RIGHT*/
+				position: relative; /*MAKES IMAGE MOVE UPPER*/
+				top: -200px; /*MAKES IMAGE MOVE UPPER AS WELL*/
+			}
+			
+			@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+			
+			/*SAMPLE INFORMATION TEXT*/
+			#JS-script {
+				font-family: 'Roboto', sans-serif;
+				padding-top: 100px; /*THIS MAKES THE TEXT MOVE DOWN*/
+				padding-left: 130px; /*THIS MAKES THE TEXT MOVE TO THE RIGHT*/
+			}
+			
+			#js-logo:hover {
+				height: 165px;
+				width: 125px;
+			}
+			
+			@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+			
+			#third-H {
+				padding-top: 55px; /*THIS MAKES THE TEXT MOVE UP*/
+				padding-left: 280px; /*THIS MAKES THE TEXT MOVE TO THE RIGHT*/
+				background-color: #78909C;
+				margin: 0;
+				margin-top: -5px; /*THIS MAKES THE BACKGROUND-COLOURS CONNECT WITH EACH OTHER NO MORE WHITE SPACE*/
+				height: 290px;
+				font-family: 'Lato', sans-serif;
+				font-weight: 2;
+				font-size: 25px;
+			}
+			
+			#py-logo {
+				height: 150px;
+				width: 150px;
+				position: relative;
+				top: -350px; /*THIS MAKES THE IMAGE MOVE UPPWARDS*/
+				left: 420px; /*THIS MAKES THE IMAGE MOVE TO THE RIGHT*/
+			}
+			
+			#py-logo:hover {
+				height: 170px;
+				width: 170px;
+			}
+			
+			#j-logo {
+				height: 150px;
+				width: 150px;
+				position: relative;
+				top: -505px;
+				left: 740px;
+			}
+			
+			#j-logo:hover {
+				height: 170px;
+				width: 170px;
+			}
+
+			#c-img {
+				height: 140px;
+				width: 140px;
+				position: relative;
+				top: -650px; /*MAKES THE IMG MOVE UP*/
+				float: right; /*MAKES IMG GO TO THE RIGHT*/
+				right: 145px;
+			}
+
+			#c-img:hover {
+				height: 150px;
+				width: 150px;
+			}
+
+			@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+			#conclusion {
+				margin-top: -452px; /*THIS MAKES THE TEXT MOVE UP OR LOWER AND CONNECT WITH UPPER ELEMENT*/
+				font-family: 'Open Sans', sans-serif;
+				text-align: center;
+				font-size: 25px;
+				padding-bottom: 10px;
+				padding-top: 30px; /*MAKES CONCLUSION HEADER MOVE LOWER*/
+			}
+
+			@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+			#last-text {
+				padding-top: 35px; /*THIS MAKES THE TEXT MOVE LOWER*/
+				padding-right: 45px;
+				padding-left: 45px;
+				font-family: 'Lato', sans-serif; 
+			}
+
+			.con {
+				background-color: rgb(189,189,189);
+				vertical-align: middle;
+				padding-bottom: 75px; /*MAKES BACKGROUND COLOR GO LOWER*/
+				position: relative;
+			}
+
+			.footer {
+				padding-top: 5px; /*THIS MAKES THE FOOTER TOUCH THE TOP OF THE OTHER COLOUR*/
+				left: 0;
+				bottom: 0;
+				height: 400px;
+				top: 15px;
+				width: 100%;
+				background-color: #808B96;
+				color: #000000;
+				text-align: center;
+			}
+
+			#footer-links a {
+				text-decoration: none;
+				list-style-type: none;
+				color: #000000;
+				margin-left: 250px;
+				padding-bottom: 20px;
+			}
+
+			#footer-links a:hover {
+				color: #FFFFFF;
+			}
+		</style>
+	</head>
+	<!--CLEAR THE SPACE IN BETWEEN WHERE THERE IS WHITE SPACE-->
+	<body>
+		
+		<header>
+			<h1 id="first-header">Programming Languages</h1>
+		</header>
+		
+		<div class="nav">
+			<nav> 
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Feedback</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="JS-div">
+			<h2 id="sec-header">A brief Introduction</h2>
+			<p id="first-p">
+				Programming languages are a way in which a programmer writes some code in a IDE, an integrated 
+				development environment which allows one to construct and create softwarefor many platforms as 
+				well as operating systems. Platforms such as iOS and android, operating systems such as Windows 
+				and Mac. However,making apps with for these OS's and platforms often require many to use different 
+				programming languages. Fortunately, with the rise of popularity with frameworks. Using frontend 
+				technologies such as HTML CSS and Javascript Deskotop, mobile, and Web apps can be made with frameworks 
+				such as Electronand react native for cross-platform development.
+			</p>
+			<br>
+			<br>
+		</div>
+		
+		<div class="third-header">
+			<h3 id="third-H">Click on the icons for information for the selected programming language</h3>
+		</div>
+		<div class="prolang-images">
+			<a href="http://www.bestprogramminglanguagefor.me/why-learn-javascript" target="_blank"><img src="https://icons-for-free.com/iconfiles/png/512/end+javascript+js+long+shadow+markup+language+web+web+technology-1320184849765110878.png" alt="JS-logo" id="js-logo"></a>
+		</div>
+		
+		<div class="sec-img">
+			<a href="https://www.codingdojo.com/blog/why-you-should-learn-python" target="_blank"><img src="https://www.sololearn.com/Icons/Courses/1073.png" alt="Python img" id="py-logo"></a>
+		</div>
+		
+		<div class="java-img">
+			<a href="https://codegym.cc/groups/posts/why-should-you-learn-java" target="_blank"><img src="https://png.pngtree.com/svg/20161115/java_633959.png" id="j-logo"></a>
+		</div>
+		<div class="c-img">
+			<a href="http://www.bestprogramminglanguagefor.me/why-learn-c-plus-plus" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/306px-ISO_C%2B%2B_Logo.svg.png" id="c-img"></a>
+		</div>
+		<div class="con">
+			<h4 id="conclusion">Conclusion</h4>
+			<p id="last-text">
+				In the end whichever programming language you want to learn depends on you and on your interest my suggestion is that you pick the one which you think will be the best for you and which seems to fit your purpose and your reasons why you began to learn programming and for what you desire to make and or do with this amazing skill. Best of luck!
+			</p>
+		</div>
+		<div class="footer">
+			<footer>
+				<p id="footer-links">
+					<a href="#">Careers</a>
+					<a href="#">Options</a>
+					<a href="#">Language</a>
+					<a href="#">Pathreon</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+</html> 
