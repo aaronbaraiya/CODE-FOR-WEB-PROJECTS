@@ -1,0 +1,99 @@
+<!--USER IPUT FOR A SURVEY-->
+<!--NEXT TIME MAKE SURE THAT ALL OF THE INPUTS ARE WITHIN THE SAME FORM ACTION TAG BUT DIRRENT LABELS AND SAME SOTRY FOR THE SUBMIT BUTTON-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <link rel="icon" href="https://web.getmonero.org/press-kit/symbols/monero-symbol-1280.png">
+
+        <style type="text/css">
+            html,body {
+                background-color: #000000;
+                color: #FFFFFF;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+
+            #first-H {
+                text-align: center;
+                padding-top: 15px;
+            }
+
+            #first-P {
+                text-align: center;
+                padding-top: 30px;
+            }
+
+            .first-div {
+                padding-top: 55px;
+                text-align: left;
+            }
+
+            .sec-div {
+                float: left;
+            }
+
+            .third-div {
+                padding-top: 175px; /*WAS RIGHT NEXT TO THE ONE BEFORE IT AND IS NOW RIGHT BELOW IT*/
+            } 
+
+            .Submit-input {
+                padding-top: 25px;
+            }
+
+            #Sub-button {
+                border: solid #A9A9A9 5px;  /*MAKES THE BORDER FOR THE BUTTON OR ANY OTHER ELEMENT*/
+            }
+
+            #Sub-button:hover {
+                height: 30px;
+                width: 70px;
+            } 
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="first-H">Enter input surveyor</h1>
+            <p id="first-P">Dark mode is activated</p>
+        </header>
+
+        <div class="first-div">
+            <form action="Submit">
+                <label for="input">
+                    <p>Enter your first name first, then your last name last:</p>
+                    <input type="text" placeholder="First Name" required> <br> <br>
+                    <p>Enter last name:</p>
+                    <input type="text" placeholder="Last Name" required> <br>
+                </label>
+            </form>
+        </div>
+        <br><br>
+        <div class="sec-div">
+            <form action="Submit-sec">
+                <label for="sec-input">
+                    <p>Enter radio input:</p>
+                    <input type="radio" name="sec-input" required>Yes <br><br>
+                    <input type="radio" name="sec-input" required>No <br><br>
+                    <input type="radio" name="sec-input" required>Maybe <br>
+                </label>
+            </form>
+        </div>
+        
+        <div class="third-div">
+            <form action="third-input">
+                <label for="third-input">
+                    <p>Enter the checkboxs which apply to you:</p>
+                    <input type="checkbox" name="third-input" required>First <br><br>
+                    <input type="checkbox" name="third-input" required>Second <br><br>
+                    <input type="checkbox" name="third-input" required>Third <br><br>
+                </label>
+            </form>
+        </div>
+
+        <div class="Submit-input">
+            <form action="Sumbit-all">
+                <button type="Submit" id="Sub-button">Submit</button>
+            </form>
+        </div>
+    </body>
+</html> 
