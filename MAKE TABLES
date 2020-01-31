@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    	<head>
+        	<title>Title of the page</title>
+
+        	<link rel="icon" href="https://nhl.bamcontent.com/images/photos/283992794/2568x1444/cut.jpg"/>
+
+        	<style type="text/css">
+            		#first-H {
+                		text-align: center;
+				font-family: Arial;
+				padding-top: 30px;
+            		}
+
+			table,th, td {
+				border: 1px solid #000000;	
+				border-collapse: collapse; /*MAKES THE OUTER BORDERS COLLAPSE*/
+				padding: 15px;/*MAKES THE CELLS MUCH BIGGER*/
+			}
+			
+
+			[class="td"] { /*CLASS ATTRIBUTE OF TD MUST BE GIVEN TO THE DIV TAG*/
+				text-align: center;
+			}
+
+		</style>
+
+	</head>
+	
+    	
+	<body>
+		<header>
+			 <h1 id="first-H">Tables</h1>
+		</header>
+
+		<br><br>
+		
+
+		<div class="first-div">
+			<table class="td" style="width:100%"> <!--MUST ADD CSS TO ADD BORDERS-->
+				<tr> <!--TH GIVE THE TABLE HEADERS-->
+					<th>First</th>
+					<th>Second</th>	
+					<th>Third</th>
+				</tr>
+
+				<tr> <!--TD OBJECTS GO FROM LEFT TO RIGHT-->
+					<td>one</td>
+					<td>two</td>
+					<td>three</td>
+				</tr>
+
+				<tr>
+					<td>four</td>
+					<td>five</td>
+					<td>six</td>
+				</tr>
+		
+				<tr>
+					<td>seven</td>
+					<td>eight</td>
+					<td>nine</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+ 
+</html>
