@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TestingArea</title>
+        <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/e/e0/Wikispecies-logo.jpg" />
+
+           <style type="text/css">
+                html, body {
+                    font-family: Arial;
+                }
+
+               #first-H {
+                   text-align: center;
+                   font-family: Arial;
+               }
+
+               .butt {
+                   margin-top: 25px;
+               }
+           </style>
+    </head>
+
+    <body>
+        <header>
+            <h1 id="first-H">Input Survey</h1>
+        </header>
+
+        <div class="first-inputs">
+            <form action="Submit" method="POST">
+                <label>
+                    <p>Enter your name: </p>
+                    <input type="text" placeholder="John Doe" required/>
+                </label>
+                <br/><br/>
+                <label for="checkbox-inputs">
+                    <p>Choose one of the following: </p>
+                    <input type="checkbox" />Happy<br/>
+                    <input type="checkbox" />Sad<br/>
+                    <input type="checkbox" />Gai<br/>
+                </label>
+                <br/><br/>
+                <label for="radio-inputs">
+                    <p>Choose whichever ones you want:</p>
+                    <input type="radio" name="radio-inputs"/>Male<br/>
+                    <input type="radio" name="radio-inputs"/>Female<br/>
+                    <input type="radio" name="radio-inputs"/>Exotic</br>
+                </label>
+                <button class="butt"type="Submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
