@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Testing Area</title>
+		<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/e/e0/Wikispecies-logo.jpg">
+		<style type="text/css">
+			html,body {
+				background-color: #000000;
+				color: #FFFFFF;
+				font-family: Arial;
+			}
+
+			#first-H {
+				text-align: center;
+				font-family: Arial;
+			}
+
+			#submit-button {
+				margin-top: 35px;
+			}
+
+      /*MAKE SURE HOVER ATTRIBUTE IS RIGHT NEXT TO THE SUBMIT-BUTTON*/
+  
+			#submit-button:hover { 
+				height: 30px;
+				width: 60px;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 id="first-H">Testing Area</h1>
+		</header>
+
+		<form action="Submit" method="post">
+			<div class="form-inputs">
+				<label for="text-inputs">
+						<p>Enter your name:</p>
+						<input type="text" placeholder="John Doe" required><br>
+				</label>
+				<br><br>
+				<label for="second-inputs">
+					<p>Enter your gender:</p>
+					<input type="radio" name="second-inputs">Male <br>
+					<input type="radio" name="second-inputs">Female <br>
+					<input type="radio" name="second-inputs">Other <br>
+				</label>
+				<br><br>
+				<label for="third-inputs">
+					<p>Enter your current state of life:</p>
+					<input type="checkbox">Good <br>
+					<input type="checkbox">Bad <br>
+					<input type="checkbox">Decent <br>
+				</label>
+			</div>
+			<button type="Submit" id="submit-button">Submit</button>
+		</form>
+
+	</body>
+</html>
