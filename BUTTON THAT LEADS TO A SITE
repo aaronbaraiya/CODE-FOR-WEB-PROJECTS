@@ -1,0 +1,5 @@
+<!DOCTYPE html>
+<html>
+	<!--BY CLICKING THE BUTTON YOU CAN GO TO THE GIVEN SITE-->
+	<a href="https://www.google.com" target="_blank"><button>Click here to go to google</button></a>
+</html>
