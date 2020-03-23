@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="icon" href="https://pngimg.com/uploads/google/google_PNG19635.png">
+    <title>Google</title>
+
+    <style type="text/css">
+      html, body {
+        background-color: #000000;
+      }
+
+      .first-div ul li {
+        color: #C0C0C0;
+      }
+    </style>
+  </head>
+
+  <body>
+      <div class="first-div">
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Store</a></li>
+        </ul>
+      </div>
+  </body>
+</html>
