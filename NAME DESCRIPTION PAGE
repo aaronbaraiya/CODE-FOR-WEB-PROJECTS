@@ -29,6 +29,34 @@
                 height: 70px;
                 padding-top: 10px; /*MAKE NAVBAR MOVE UP ALONG WITH BACKGROUND COLOUR*/
             }
+            
+            .nav li a {
+                text-decoration: none;
+                color: #CCD1D1;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .nav ul li { /*THIS FUNCTION MAKES THE TEXT HORIZONTAL: LEFT FROM RIGHT*/
+                display: inline; /*FUNCTION TO MAKE IT HORIZONTAL*/
+                padding: 180px; /*SPREADS TEXT ACROSS NAV BAR*/
+            }
+            
+            .nav a:hover {
+                color: #E5E8E8;
+            }
+            
+            
+            div.div-img {
+                width: 200px;
+                height: 200px;
+                padding-top: 85px;
+                padding-left: 590px;
+            }
+            
+            img {
+                border-radius: 40%;
+                border: 5px solid #000000;
+            }
         </style>
     </head>
     
@@ -41,6 +69,15 @@
         
         <nav class="nav">
             <p></p> <!--NEEDED TO HAVE SOMETHING IN PLACE FOR BACKGROUND COLOUR TO BE PRESENT-->
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.indeed.com" target="_blank">Indeed</a></li>
+                <li><a href="https://www.glassdoor.com" target="_blank">Glassdoor</a></li>
+            </ul>
         </nav>
+        
+        <div class="div-img">
+            <img src="https://s3-us-west-1.amazonaws.com/co-directory-images/victorbhagat.jpg" alt="VICTOR" class="img-first"/>
+        </div>
     </body>
 </html>
