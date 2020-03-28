@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Victor Bhagat</title>
+        <link rel="icon" href="https://i.dlpng.com/static/png/1613330-dot-icon-png-50-px-logos-png-1600_1600_preview.png"/>
+        
+        <style type="text/css">
+            html, body { /*NEEDED TO MAKE HEADER BACKGROUND COLOUR FULL*/
+                margin: 0;
+                padding: 0;
+            }
+            
+            header h1 { /*NEEDED TO MAKE HEADER BACKGROUND COLOUR FULL*/
+                margin: 0;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 50;
+                padding-top: 125px; /*MAKES TEXT MOVE LOWER*/
+                color: #212F3D;
+            }
+            
+            #header {
+                background-color: #EC7063;
+                height: 350px; /*MAKES BACKGROUND COLOUR MOVER LOWER*/
+            }
+            
+            .nav {
+                background-color: #000000;
+                height: 70px;
+                padding-top: 10px; /*MAKE NAVBAR MOVE UP ALONG WITH BACKGROUND COLOUR*/
+            }
+            
+            .nav li a {
+                text-decoration: none;
+                color: #CCD1D1;
+                font-family: 'Roboto', sans-serif;
+                font-size: 18px;
+            }
+            
+            .nav ul li { /*THIS FUNCTION MAKES THE TEXT HORIZONTAL: LEFT FROM RIGHT*/
+                display: inline; /*FUNCTION TO MAKE IT HORIZONTAL*/
+                padding: 180px; /*SPREADS TEXT ACROSS NAV BAR*/
+            }
+            
+            .nav a:hover {
+                color: #E5E8E8;
+            }
+            
+            .body-div {
+                border: 25px solid #7F8C8D;
+            }
+            
+            div.div-img {
+                width: 200px;
+                height: 200px;
+                padding-top: 85px;
+                padding-left: 580px;
+            }
+            
+            img {
+                border-radius: 40%;
+                border: 5px solid #000000;
+            }
+            
+            .details-profile h2 {
+                text-align: center;
+                padding-top: 75px;
+                font-size: 35px;
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            
+            .first-text p {
+                display: inline-block;
+            }
+            
+            #f-p {
+                padding-left: 470px;
+            }
+            
+            #s-p {
+                padding-left: 470px;
+            }
+            
+            #t-p {
+                padding-left: 470px;
+            }
+            
+            #fth-p {
+                padding-left: 470px;
+            }
+            
+            #fith-p {
+                padding-left: 470px;
+            }
+            
+            #sixth-p {
+                padding-left: 470px;
+                line-height: 25px;
+            }
+            
+            .first-text {
+                font-size: 19.5px;
+                font-family: 'Roboto', sans-serif;
+            }   
+        </style>
+    </head>
+    
+    <body>
+        
+        <div class="div-header">
+            <header id="header">
+                <h1>Victor Bhagat</h1>
+            </header>
+        </div>
+        
+        <nav class="nav">
+            <p></p> <!--NEEDED TO HAVE SOMETHING IN PLACE FOR BACKGROUND COLOUR TO BE PRESENT-->
+            <ul>
+                <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.indeed.com" target="_blank">Indeed</a></li>
+                <li><a href="https://www.glassdoor.com" target="_blank">Glassdoor</a></li>
+            </ul>
+        </nav>
+        
+       <div class="body-div">
+        
+        <div class="div-img">
+            <img src="https://s3-us-west-1.amazonaws.com/co-directory-images/victorbhagat.jpg" alt="VICTOR" class="img-first"/>
+        </div>
+        
+        <div class="details-profile">
+            <h2>Profile:</h2>
+        </div>
+        
+        
+        
+        <!--INCLUDE, AGE. LOCATION, EXPERIENCE, EXPERTISE, ETC-->
+        
+        <div class="first-text">
+            <p id="f-p"><b>Location:</b> Greater New York City Area</p>
+            <br/>
+            <p id="s-p"><b>Age:</b> 35</p>
+            <br/>
+            <p id="t-p"><b>Education:</b> Cornell</p>
+            <br/>
+            <p id="fth-p"><b>Experience:</b> 15 years of prior experience working at other big corporations</p>
+            <br/>
+            <p id="fith-p"><b>Area of Experience:</b> Structured Finance</p>
+            <br/>
+            <p id="sixth-p"><b>Personal say:</b> I am very hard working and passionate about finance. <br/>I have much experience as 
+                well as a strong education background in the field.
+            </p>
+        </div>
+        
+       </div>
+    </body>
+</html>
