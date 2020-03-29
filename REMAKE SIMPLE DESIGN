@@ -5,19 +5,64 @@
         <link rel="icon" href="https://www.tutorialrepublic.com/favicon.ico"/>
         
         <style type="text/css">
+            
             .green-box {
                 background-color: #7dc765;
                 width: 550px;
                 height: 200px;
-                margin-left: 350px;
-                margin-top: 20px;/*MADE IT MOVE DOWN*/
+                margin-left: 400px; /*MAKES GREEN BOX MOVE TO THE RIGHT*/
+                margin-top: 100px; /*MADE IT MOVE DOWN*/
             }
+            
+            .green-box h2 {
+                font-size: 28px;
+                font-family: Arial, sans-serif;
+                color: #FFFFFF;
+                padding-top: 55px;
+                padding-left: 70px;
+            }
+            
+            .green-box pre {
+                color: #FFFFFF;
+                font-family: Arial, sans-serif;
+            }
+            
+            .body-text pre {
+                text-align: center;
+                font-family: Arial, sans-serif;
+                line-height: 55px;
+                padding: 300px;
+                padding-top: 70px; /*MOVES TEXT UP*/
+            } 
         </style>
     </head>
     
     <body>
         <div class="green-box">
-            <p>Text</p>
+           <h2>Static Positioned Box</h2>
+            
+            <pre>
+                Note: This box is positioned static, which is default. 
+                It is always positioned according to the normal flow 
+                of the page.
+            </pre>
+        </div>
+        
+        <div class="body-text">
+            <pre>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, 
+                luctus dui. Mauris magna metus, dapibus nec turpis vel, semper malesuada ante. Vestibulum id 
+                metus ac nisl bibendum scelerisque non non purus. Suspendisse varius nibh non aliquet sagitt
+            is. In tincidunt orci sit amet elementum vestibulum. Vivamus fermentum in arcu in aliquam. 
+        Quisque aliquam porta odio in fringilla. Vivamus nisl leo, blandit at bibendum eu, tristique 
+    eget risus. Integer aliquet quam ut elit suscipit, id interdum neque porttitor. Integer fauci
+             bus ligula.Quis quam ut magna consequat faucibus. Pellentesque eget nisi a mi suscipit tinci
+             dunt. Ut tempus dictum risus. Pellentesque viverra sagittis quam at mattis. Suspendisse pote
+    am sit amet gravida nibh, facilisis gravida odio. Phasellus auctor velit at lacus blandit, c
+             ommodo iaculis justo viverra. Etiam vitae est arcu. Mauris vel congue dolor. Aliquam eget mi 
+                mi. Fusce quam tortor, commodo ac dui quis, bibendum viverra erat. Maecenas mattis lectus e
+            nim, quis tincidunt dui molestie euismod. Curabitur et diam tristique, accumsan nunc eu.nti.
+            </pre>
         </div>
     </body>
 </html>
