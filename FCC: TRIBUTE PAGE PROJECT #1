@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <!--HTML COLOUR FORMS, FCC TRIBUTE PAGE FOR REFERENCE-->
+    <head>
+        <title>FCC: Tribute Page</title>
+        <link rel="icon" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"/>
+        
+        <style type="text/css">
+            html, body {
+                background-color: #E5E8E8;
+            }
+            
+            header h1 {
+                text-align: center;
+                padding-top: 40px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 39px;
+            }
+            
+            header p {
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                color: #2C3E50;
+            }
+            
+            .colour-block {
+                background-color: #FFFFFF;
+                width: 1340px;
+                height: 710px;
+            }
+            
+            .first-img {
+                position: relative;
+                padding-left: 190px; /*MOVES IMG TO THE RIGHT*/
+                top: -700px; /*MOVES IMG UP*/
+            }
+        </style>
+    </head>
+    
+    <body>
+        <header>
+            <h1>Dr. Norman Borlaug</h1>
+            <p>The man who saved a billion lives</p>
+        </header>
+        
+        <div class="colour-block"></div>
+        
+        <div>
+            <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" class="first-img"/>
+        </div>
+    </body>
+</html>
