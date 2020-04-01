@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
-    <!--HTML COLOUR FORMS, FCC TRIBUTE PAGE FOR REFERENCE-->
     <head>
         <title>FCC: Tribute Page</title>
         <link rel="icon" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png"/>
         
         <style type="text/css">
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            
             html, body {
                 background-color: #E5E8E8;
+                 
             }
             
             header h1 {
@@ -34,6 +40,150 @@
                 padding-left: 190px; /*MOVES IMG TO THE RIGHT*/
                 top: -700px; /*MOVES IMG UP*/
             }
+            
+            .sec-div p {
+                text-align: center; 
+                position: relative;
+                bottom: 700px; /*MAKES TEXT MOVE UP*/
+                font-family: Arial;
+                left: 40px; /*MAKES TEXT MOVE TO THE RIGHT*/
+            }
+            
+            #third-header {
+                text-align: center;
+                position: relative;
+                bottom: 620px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+            }
+            
+            .list-div  li {
+                text-align: center;
+                list-style-position: inside; /*MAKES THE BULLET POINT ALSO MOVE TO THE CENTRE*/
+                position: relative; /*NEEDED TO MAKE TEXT MOVE UP*/
+                bottom: 580px; /*MOVES TEXT UP*/
+                padding-right: 400px; /*MOVES TEXT TO THE LEFT*/
+                font-family: 'Roboto', sans-serif;
+            } 
+            
+            #first {
+                padding-left: 290px;
+            } 
+            
+            .list-div pre {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            #second {
+                padding-left: 320px;
+            }
+            
+            #sec-p {
+                padding-right: 237px;
+            }
+            
+            #third {
+                padding-left: 290px;
+            }
+            
+            #fourth {
+                padding-left: 338px;
+            }
+            
+            #third-p {
+                padding-right: 123px;
+            }
+            
+            #fifth {
+                padding-left: 312px;
+            }
+            
+            #fourth-p {
+                padding-right: 5px;
+            }
+            
+            #sixth {
+                padding-left: 227px;
+            }
+            
+            #seventh {
+                padding-left: 321px;
+            }
+            
+            #fifth-p {
+                padding-right: 50px;
+            }
+            
+            #eight {
+                padding-left: 339.5px;
+                right: 13px; 
+            }
+            
+            #ninth {
+                padding-left: 340px;
+            }
+            
+            #sixth-p {
+                padding-right: 232px;
+            }
+            
+            #r-p {
+                padding-right: 370px;
+            }
+            
+            #tenth {
+                padding-left: 340px;
+                right: 8px;
+            }
+            
+            #sev-p {
+                padding-right: 305px;
+            }
+            
+            #eleventh {
+                padding-left: 115px;
+            }
+            
+            #twelve {
+                padding-left: 345px;
+                right: 27px;
+            }
+            
+            #eight-p {
+                padding-right: 233px;
+            }
+            
+            #thirdth {
+                padding-left: 320px;
+            }
+            
+            #fourtdth {
+                padding-left: 333px;
+            }
+            
+            #fifthtd {
+                padding-left: 50px;
+            }
+            
+            .cite-div {
+               text-align: center;
+                position: relative; /*NEEDED TO MAKE TEXT MOVE*/
+                bottom: 550px; /*MOVES TEXT UP*/
+                right: 40px;
+                font-size: 16px;
+            }
+            
+            pre {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .last-div p {
+                text-align: center;
+                position: relative;
+                bottom: 500px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 20px;
+            }
         </style>
     </head>
     
@@ -45,8 +195,72 @@
         
         <div class="colour-block"></div>
         
-        <div>
+        <div class="sec-div">
             <img src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" class="first-img"/>
+            <p>
+            Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.
+            </p>
+        </div>
+        
+        <h3 id="third-header">Here's a time line of Dr. Borlaug's life:</h3>
+        
+        <div class="list-div">
+            <ul>
+                <li><b>1914</b> - Born in Cresco, Iowa</li> <br/><br/>
+                <li id="first"><b>1933</b> - Leaves his family's farm to attend the University of Minnesota,<br/>
+                    <pre>              to a Depression era program known as the "National Youth Administration"</pre>
+                </li><br/>
+                <li id="second"><b>1935</b> - Has to stop school and save up more money. Works in the Civilian <pre>        Conservation Corps, helping starving Americans. "I saw how food changed them", <p id="sec-p">he said. "All of this left scars on me."</p></pre></li>
+                <br/>
+                <li id="third"><b>1937</b> - Finishes university and takes a job in the US Forestry Service</li>
+                <br/><br/>
+                <li id="fourth"><b>1938</b> - Marries wife of 69 years Margret Gibson. Gets laid off due to budget <pre>     cuts. Inspired by Elvin Charles Stakman, he returns to school study under Stakman, <p id="third-p">who teaches him about breeding pest-resistent plants.</p></pre></li>
+                <br/>
+                <li id="fifth"><b>1941</b> - Tries to enroll in the military after the Pearl Harbor attack, but is <pre>        rejected. Instead, the military asked his lab to work on waterproof glue, <p id="fourth-p">DDT to control malaria, disinfectants, and other applied science.</p></pre></li>
+                <br/>
+                <li id="sixth"><b>1942</b> - Receives a Ph.D. in Genetics and Plant Pathology </li>
+                <br/><br/>
+                <li id="seventh"><b>1944</b> - Rejects a 100% salary increase from Dupont, leaves behind his <pre>            pregnant wife, and flies to Mexico to head a new plant pathology program. Over 
+                
+            the next 16 years, his team breeds 6,000 different strains of disease resistent wheat -  <p id="fifth-p">including different varieties for each major climate on Earth.</p></pre></li>
+                <br/>
+                <li id="eight"><b>1945</b> - Discovers a way to grown wheat twice each season, doubling <pre><p id="r-p">wheat yields</p></pre></li>
+                <br/><br/>
+                <li id="ninth"><b>1953</b> - crosses a short, sturdy dwarf breed of wheat with a high-yeidling <pre>        American breed, creating a strain that responds well to fertilizer. It goes on <p id="sixth-p">to provide 95% of Mexico's wheat.</p></pre></li>
+                <br/>
+                <li id="tenth"><b>1962</b> -  Visits Delhi and brings his high-yielding strains of wheat to the <pre>          Indian subcontinent in time to help mitigate mass starvation due to a rapidly <p id="sev-p">expanding population</p></pre></li>
+                <br/>
+                <li id="eleventh"><b>1970</b> - receives the Nobel Peace Prize</li>
+                <br/><br/>
+                <li id="twelve"><b>1983</b> -  helps seven African countries dramatically increase their <pre><p id="eight-p">maize and sorghum yields</p></pre></li>
+                <br/>
+                <li id="thirdth"><b>1984</b> - becomes a distinguished professor at Texas A&M University</li>
+                <br/><br/>
+                <li id="fourtdth"><b>2005</b> - states "we will have to double the world food supply by 2050." <pre>           Argues that genetically modified crops are the only way we can meet the 
+                
+           demand, as we run out of arable land. Says that GM crops are not inherently 
+           
+           dangerous because "we've been genetically modifying plants and animals for a 
+           
+           long time. Long before we called it science, people were selecting the best breeds."</pre></li>
+                
+                <br/>
+                <li id="fifthtd"><b>2009</b> - dies at the age of 95.</li>
+            </ul>
+        </div>
+        
+        <div class="cite-div">
+                <pre>
+                "Borlaug's life and achievement are testimony to the far-reaching contribution 
+                    that one man's towering intellect, persistence and scientific vision can make to 
+                    human peace and progress."
+                
+         -- Indian Prime Minister Manmohan Singh
+                </pre>
+        </div>
+        
+        <div class="last-div">
+            <p><strong>If you have time, you should read more about this incredible human being on his <a href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Wikipedia Entry</a></strong></p>
         </div>
     </body>
 </html>
